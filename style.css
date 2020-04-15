@@ -1,0 +1,446 @@
+body
+{
+font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+
+}
+#partnerlist
+{
+height:auto;
+ width:auto;
+background-color:white;
+}
+
+
+#partnerlist img
+{
+border:2px solid white;
+display:inline;
+
+}
+#partnerlist img:hover
+{
+border:2px solid green;
+
+}
+
+
+
+a:link {color:inherit;text-decoration:none;}
+a:visited {color:inherit;text-decoration:none;}
+a:hover {color:inherit;text-decoration:none;}
+a:active {color:inherit;text-decoration:none;}
+
+
+
+
+.button a {
+	
+	background-color:#595959;
+	vertical-align:top;
+	padding:2px 10px 0px 10px;
+	color: white;
+	text-decoration: none;
+	font-weight: normal;
+	text-align:right;
+	position:fixed;
+	top:150px;
+	right:20px;
+	
+	}
+
+
+.list
+{
+background-image:url(./img/bullet_arrow.png);
+background-repeat:no-repeat;
+padding: 0px 0px 0px 13px;
+background-position:0px 3px;
+line-height: 20px;
+}
+
+
+
+.middle
+{
+padding:6px 0px 25px 20px;
+
+
+
+}
+
+
+
+.main_header
+{
+	font-family: Palatino, “Palatino Linotype”, “Hoefler Text”, Times, “Times New Roman”, serif;
+	font-size:22px;
+    color:#999999;
+    border-left: solid 3px #D90003;
+    padding:3px 0px 3px 10px;
+    margin:0px 20px 0px 0px;
+	display:inline;
+
+}
+.head_gray, .classsynopsis
+{
+  background-color:#B0C4DE;
+  border: solid 1px #aaaaaa;
+  padding: 0.5em;
+}
+
+.head_image,
+{
+  background: #eeeeee;
+  border: solid 1px #aaaaaa;
+  padding: 0.5em;
+}
+
+.green_header
+{
+  vertical-align:top;
+  background: #eeffd9;
+  border: solid 1px #def4c3;
+  padding: 0.5em;
+font-weight: bolder;
+  -moz-box-shadow:    0 0 5px black;
+  -webkit-box-shadow: 0 0 5px black;
+  box-shadow:         0 0 5px black;
+  
+  /*
+  -moz-transition: text-shadow 1s linear;
+  -webkit-transition: text-shadow 1s linear;
+  transition: text-shadow 1s linear;
+  */
+  
+  
+  }
+
+  .green_header_hover
+{
+  vertical-align:top;
+  background: #BAFF66;
+  border: solid 1px #def4c3;
+  padding: 0.5em;
+font-weight: bolder;
+ -moz-box-shadow:    0 0 15px black;
+  -webkit-box-shadow: 0 0 15px black;
+  box-shadow:         0 0 15px black;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  .default_programlisting
+{
+  background: #eeeeff;
+  border: solid 1px #aaaaff;
+  padding: 0.5em;
+}
+.head_blue
+{
+  background: #e9f5fe;
+  border: solid 1px #9cd6ff;
+  padding: 0.5em;
+}
+.warning
+{
+  background: #ffeeee;
+  border: solid 1px #ffaaaa;
+  padding: 0.5em;
+}
+.variablelist
+{
+  padding: 4px;
+  margin-left: 3em;
+}
+.variablelist td:first-child
+{
+  vertical-align: top;
+}
+
+/* this is needed so that the local anchors are displayed below the naviagtion */
+@media screen {
+  div.refnamediv a[name], div.refsect1 a[name]
+  {
+    position: relative;
+    top: -4.5em;
+  }
+  table.navigation#top
+  {
+    background: #ffeeee;
+    border: solid 1px #ffaaaa;
+    margin-top: 0;
+    margin-bottom: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 2em;
+    z-index: 1;
+  }
+  .navigation a
+  {
+    color: #770000;
+  }
+  .navigation a:visited
+  {
+    color: #550000;
+  }
+  td.shortcuts
+  {
+    color: #770000;
+    font-size: 80%;
+  }
+  div.refentry, div.chapter, div.reference, div.part, div.book, div.index, div.glossary, div.sect1, div.appendix, div.preface
+  {
+    position: relative;
+    top: 3em;
+    z-index: 0;
+  }
+  div.refnamediv
+  {
+    margin-top: 2em;
+  }
+  body
+  {
+    padding-bottom: 20em;
+  }
+}
+@media print {
+  table.navigation {
+    visibility: collapse;
+    display: none;
+  }
+  div.titlepage table.navigation {
+    visibility: visible;
+    display: table;
+    background: #ffeeee;
+    border: solid 1px #ffaaaa;
+    margin-top: 0;
+    margin-bottom: 0;
+    top: 0;
+    left: 0;
+    height: 2em;
+  }
+}
+
+.navigation .title
+{
+  font-size: 200%;
+}
+
+
+div.gallery-float
+{
+  float: left;
+  padding: 10px;
+}
+div.gallery-float img
+{
+  border-style: none;
+}
+div.gallery-spacer
+{
+  clear: both;
+}
+
+
+/*
+a
+{
+  text-decoration: none;
+}
+a:hover
+{
+  text-decoration: underline;
+  color: #FF0000;
+}
+*/
+div.table table
+{
+  border-collapse: collapse;
+  border-spacing: 0px;
+  border-style: solid;
+  border-color: #777777;
+  border-width: 1px;
+}
+
+div.table table td, div.table table th
+{
+  border-style: solid;
+  border-color: #777777;
+  border-width: 1px;
+  padding: 3px;
+  vertical-align: top;
+}
+
+div.table table th
+{
+  background-color: #eeeeee;
+}
+
+hr
+{
+  color: #888;
+  background: #888;
+  border: 0;
+  height: 1px;
+  clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ######### Marker List Vertical Menu ######### */
+
+.markermenu{
+width: 175px; /*width of side bar menu*/
+clear: left;
+position: relative; /*Preserve this for "right" arrow images (added by script) to be positioned correctly*/
+
+}
+
+.markermenu ul{
+list-style-type: none;
+margin: 5px 0;
+padding: 0;
+border: 1px solid #9A9A9A;
+}
+
+.markermenu ul li a{
+background: #F2F2F2 url(bulletlist.gif) no-repeat 3px center; /*light gray background*/
+font: bold 13px  sans-serif;
+color: #00014e;
+display: block;
+width: auto;
+padding-right:0px;
+padding: 3px 0;
+padding-left: 20px;
+text-decoration: none;
+border-bottom: 1px solid #B5B5B5;
+}
+
+* html .markermenu ul li a{ /*IE6 hack*/
+width: 155px;
+}
+
+.markermenu ul li a:visited, .markermenu ul li a:active{
+color: #00014e;
+}
+
+.markermenu ul li a:hover, .markermenu ul li a.selected{
+color: white;
+background-color: black;
+}
+
+/* ######### Customized Drop Down ULs CSS (inherits from ddlevelsmenu-base.css) ######### */
+
+.blackwhite li a{
+background: white;
+}
+
+.blackwhite li a:hover{
+background: black;
+color: white;
+}
+
+
+
+
+
+
+
+
+
+/* BASE*/
+
+
+/* ######### Drop Down ULs CSS ######### */
+
+
+.ddsubmenustyle, .ddsubmenustyle ul{ /*topmost and sub ULs, respectively*/
+font: normal 13px Verdana;
+margin: 0;
+padding: 0;
+position: absolute;
+left: 0;
+top: 0;
+list-style-type: none;
+background: white;
+border: 1px solid black;
+border-bottom-width: 0;
+visibility: hidden;
+z-index: 100;
+}
+
+.ddsubmenustyle li a{
+display: block;
+width: 160px; /*width of menu (not including side paddings)*/
+
+color: #00014e;
+font: bold 13px "Lucida Grande", "Trebuchet MS", Verdana, Helvetica, sans-serif;
+
+background-color: #F2F2F2;
+text-decoration: none;
+padding: 4px 5px;
+border-bottom: 1px solid black;
+
+}
+
+* html .ddsubmenustyle li{ /*IE6 CSS hack*/
+display: inline-block;
+width: 170px; /*width of menu (include side paddings of LI A*/
+}
+
+.ddsubmenustyle li a:hover{
+background-color: black;
+color: white;
+}
+
+/* ######### Neutral CSS  ######### */
+
+.downarrowpointer{ /*CSS for "down" arrow image added to top menu items*/
+padding-left: 4px;
+border: 0;
+}
+
+.rightarrowpointer{ /*CSS for "right" arrow image added to drop down menu items*/
+position: absolute;
+padding-top: 3px;
+left: 100px;
+border: 0;
+}
+
+.ddiframeshim{
+position: absolute;
+z-index: 500;
+background: transparent;
+border-width: 0;
+width: 0;
+height: 0;
+display: block;
+}
+
+
+
+
+
